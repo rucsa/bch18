@@ -31,12 +31,12 @@ class RootREST:
             return say_hallo(name)
 
         # Run Flask.
-        if self.run_flask:
-            self.app.run(host=self.host, debug=True)
+        if self.run_flask:                              # pragma: no cover
+            self.app.run(host=self.host, debug=True)    # pragma: no cover
 
 
-def run_engine(host):
-    RootREST(host, True)
+def run_engine(host):                                   # pragma: no cover
+    RootREST(host, True)                                # pragma: no cover
 
-if __name__ == '__main__':
-    run_engine('localhost')
+if __name__ == '__main__':                              # pragma: no cover
+    run_engine('localhost')                             # pragma: no cover
