@@ -8,10 +8,9 @@ setup(
     author_email='guido.barbaglia@gmail.com',
     packages=find_packages(),
     license='LICENSE.txt',
-    long_description=open('README.md').read(),
     description='Simple Flask application.',
     install_requires=[
-        'watchdog', 'flask', 'flask-cors'
+        'watchdog', 'flask', 'flask-cors', 'SimpleFlaskBlueprint'
     ],
     url='http://pypi.python.org/pypi/SimpleFlask/'
 )
