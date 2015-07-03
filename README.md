@@ -2,7 +2,7 @@
 [![Coverage Status](https://coveralls.io/repos/Kalimaha/simple_flask/badge.svg)](https://coveralls.io/r/Kalimaha/simple_flask)
 
 # Simple Flask
-Simple REST service developed with Flask.
+Simple REST service developed with Flask. This project has been created for a tutorial described on [Kalimadev Blog](http://wp.me/p61qQI-s).
 
 Developed with 
 --------------
