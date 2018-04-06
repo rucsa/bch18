@@ -50,4 +50,4 @@ def create_task():
 
 
 if __name__ == '__main__':
-    app.run(debug=False)
+    app.run(host='ec2-35-156-214-22.eu-central-1.compute.amazonaws.com', port=5000)
